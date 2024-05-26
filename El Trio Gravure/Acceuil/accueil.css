@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid brown;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: black;
+}
+
+    header{
+        border: 1px solid red;
+
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.03);
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    .inter{
+        display: flex;
+        flex-direction: row;
+    }
+
+        nav{
+            padding: 2%;
+            width: 20%;
+            background-color: rgba(255, 255, 255, 0.03);
+            color: white;
+        }
+
+        main{
+            display: flex;
+            flex-direction: column;
+            padding: 2%;
+            width: 80%;
+            text-align: center;
+        }
+
+            .ETG{
+                padding: 1%;
+                color: palegoldenrod;
+            }
+
+            .about0{
+                text-align: justify;
+                color: white;
+                padding: 2%;
+            }
+
+                .logo{
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .logoimg{
+                    width: 25%;
+                }
+           .about1{
+               display: flex;
+               flex-direction: row;
+               padding: 2%;
+               width: 100%;
+               border:  1px solid red;
+           }
+                .imgabout1{
+                    width: 50%;
+                    border:  1px solid red;
+                    padding: 2%;
+
+
+                }
+                    .pic1{
+                        width: 80%;
+                        border-radius: 5%;
+                    }
+
+                .txtabout1{
+                    color: white;
+                    width: 50%;
+                    border:  1px solid red;
+                    padding: 2%;
+                    text-align: justify;
+                }
+
+            .about2{
+                display: flex;
+                flex-direction: row-reverse;
+                padding: 2%;
+                width: 100%;
+                border:  1px solid green;
+            }
+            .imgabout2{
+                width: 50%;
+                border:  1px solid green;
+                padding: 2%;
+
+
+            }
+            .pic2{
+                width: 80%;
+                border-radius: 5%;
+            }
+
+            .txtabout2{
+                color: white;
+                width: 50%;
+                border:  1px solid green;
+                padding: 2%;
+                text-align: justify;
+            }
+
+            .about3{
+                display: flex;
+                flex-direction: row;
+                padding: 2%;
+                width: 100%;
+                border:  1px solid blue;
+            }
+            .imgabout3{
+                width: 50%;
+                border:  1px solid blue;
+                padding: 2%;
+
+
+            }
+            .pic3{
+                width: 80%;
+                border-radius: 5%;
+            }
+
+            .txtabout3{
+                color: white;
+                width: 50%;
+                border:  1px solid blue;
+                padding: 2%;
+                text-align: justify;
+            }
+
+    footer{
+        display:flex;
+        width: 100%;
+        justify-content: center;
+        border:1px solid brown;
+        background: rgba(245, 245, 245, 0.03);
+        padding: 2%;
+        color: white;
+    }
+        .telmail{
+            width: 30%;
+            text-align: center;
+            color: white;
+        }
+        .reseaux {
+            width: 30%;
+            text-align: center;
+            color:white ;
+        }
