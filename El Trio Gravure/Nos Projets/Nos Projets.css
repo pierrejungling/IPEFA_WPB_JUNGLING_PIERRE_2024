@@ -32,7 +32,21 @@ body {
             width: 20%;
             background-color: rgba(255, 255, 255, 0.03);
             color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
+
+            nav ul{
+                list-style-type: none;
+                text-align: center;
+            }
+            nav a{
+                text-decoration: none;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
 
         main{
             display: flex;
@@ -142,6 +156,13 @@ body {
         padding: 2%;
         color: white;
     }
+
+        footer a{
+            text-decoration: none;
+        }
+        footer a:hover{
+            text-decoration: underline;
+        }
         .telmail{
             width: 30%;
             text-align: center;
