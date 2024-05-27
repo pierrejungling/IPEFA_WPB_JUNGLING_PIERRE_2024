@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: black;
+}
+
+    header{
+        border: 1px solid red;
+
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.03);
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    .inter{
+        display: flex;
+        flex-direction: row;
+    }
+
+        nav{
+            padding: 2%;
+            width: 20%;
+            background-color: rgba(255, 255, 255, 0.03);
+            color: white;
+        }
+
+        main{
+            display: flex;
+            flex-direction: column;
+            padding: 2%;
+            width: 80%;
+            text-align: center;
+        }
+
+            .crea0{
+                color: white;
+                padding: 2%;
+            }
+            .crea0 h2{
+                text-align: center;
+                padding: 2%;
+            }
+
+            .step{
+                display: flex;
+                justify-content: center;
+                width: 80%;
+                text-align: center;
+             }
+           
+    footer{
+        display:flex;
+        width: 100%;
+        justify-content: center;
+        border:1px solid brown;
+        background: rgba(245, 245, 245, 0.03);
+        padding: 2%;
+        color: white;
+    }
+        .telmail{
+            width: 30%;
+            text-align: center;
+            color: white;
+        }
+        .reseaux {
+            width: 30%;
+            text-align: center;
+            color:white ;
+        }
