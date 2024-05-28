@@ -100,6 +100,32 @@ body {
                     .step p{
                         text-align: justify;
                     }
+
+                    .toggle-checkbox{
+                        display: none;
+                    }
+                    .toggle-title {
+                        margin-top: 20px; /* Ajoute un espace au-dessus de chaque titre */
+                        margin-bottom: 10px; /* Ajoute un espace en dessous de chaque titre */
+                        display: block;
+                    }
+                    .toggle-title:hover{
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+
+                    .toggle-content {
+                        display: none;
+                        margin-top: 10px;
+                    }
+                    .toggle-checkbox:checked + .toggle-title {
+                        text-decoration: underline;
+                    }
+                    .toggle-checkbox:checked + .toggle-title + .toggle-content {
+                        display: block;
+                    }
+
+
            
     footer{
         display:flex;

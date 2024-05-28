@@ -1,0 +1,33 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Cache les checkbox */
+.toggle-checkbox {
+    display: none;
+}
+
+/* Style pour les titres */
+.toggle-title {
+    cursor: pointer;
+    color: blue;
+    margin-top: 20px;
+    display: block;
+}
+
+/* Cache les contenus par défaut */
+.toggle-content {
+    display: none;
+    margin-top: 10px;
+}
+
+/* Affiche le contenu si la checkbox correspondante est cochée */
+.toggle-checkbox:checked + .toggle-title + .toggle-content {
+    display: block;
+}
