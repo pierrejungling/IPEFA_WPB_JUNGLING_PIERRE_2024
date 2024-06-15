@@ -79,6 +79,7 @@ body {
                 text-align: justify;
                 color: white;
                 padding: 2%;
+                line-height: 1.3;
             }
                 .mod0 h2{
                     text-align: center;
@@ -110,7 +111,6 @@ body {
                             align-self: center;
                             justify-content: center;
                             width: 50%;
-                            padding: 2%;
                         }
                             .pic1{
                                 width: 80%;
@@ -144,7 +144,6 @@ body {
                             align-self: center;
                             justify-content: center;
                             width: 50%;
-                            padding: 2%;
                         }
 
                         .pic2{
@@ -178,7 +177,6 @@ body {
                     align-self: center;
                     justify-content: center;
                     width: 50%;
-                    padding: 2%;
                 }
                 .pic3{
                     width: 80%;
@@ -207,7 +205,6 @@ body {
                     align-self: center;
                     justify-content: center;
                     width: 50%;
-                    padding: 2%;
                 }
 
                 .pic4{
@@ -241,7 +238,6 @@ body {
                             align-self: center;
                             justify-content: center;
                             width: 50%;
-                            padding: 2%;
                         }
                             .pic5{
                                 width: 80%;
@@ -270,7 +266,6 @@ body {
                             align-self: center;
                             justify-content: center;
                             width: 50%;
-                            padding: 2%;
                         }
 
                         .pic6{
