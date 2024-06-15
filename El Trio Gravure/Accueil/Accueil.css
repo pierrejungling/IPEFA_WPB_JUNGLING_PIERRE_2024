@@ -13,7 +13,7 @@ body {
 }
 
     header{
-        border: 1px solid red;
+        border:1px solid rgba(255, 255, 255, 0.25);
 
         width: 100%;
         background-color: #1a1a1a;
@@ -93,11 +93,9 @@ main{
                flex-direction: row;
                padding: 2%;
                width: 100%;
-               border:  1px solid red;
            }
                 .imgabout1{
                     width: 50%;
-                    border:  1px solid red;
                     padding: 2%;
 
 
@@ -110,7 +108,9 @@ main{
                 .txtabout1{
                     color: white;
                     width: 50%;
-                    border:  1px solid red;
+                    border:  1px solid rgba(255, 255, 255, 0.3);
+                    border-radius: 10px;
+                    background: #1f1f1f;
                     padding: 2%;
                     text-align: justify;
                 }
@@ -120,11 +120,9 @@ main{
                 flex-direction: row-reverse;
                 padding: 2%;
                 width: 100%;
-                border:  1px solid green;
             }
             .imgabout2{
                 width: 50%;
-                border:  1px solid green;
                 padding: 2%;
 
 
@@ -137,7 +135,9 @@ main{
             .txtabout2{
                 color: white;
                 width: 50%;
-                border:  1px solid green;
+                border:  1px solid rgba(255, 255, 255, 0.3);
+                border-radius: 10px;
+                background: #1f1f1f;
                 padding: 2%;
                 text-align: justify;
             }
@@ -147,11 +147,9 @@ main{
                 flex-direction: row;
                 padding: 2%;
                 width: 100%;
-                border:  1px solid blue;
             }
             .imgabout3{
                 width: 50%;
-                border:  1px solid blue;
                 padding: 2%;
 
 
@@ -164,7 +162,9 @@ main{
             .txtabout3{
                 color: white;
                 width: 50%;
-                border:  1px solid blue;
+                border:  1px solid rgba(255, 255, 255, 0.3);
+                border-radius: 10px;
+                background: #1f1f1f;
                 padding: 2%;
                 text-align: justify;
             }
@@ -173,7 +173,7 @@ main{
         display:flex;
         width: 100%;
         justify-content: center;
-        border:1px solid brown;
+        border:1px solid rgba(255, 255, 255, 0.25);
         background: #1a1a1a;
         padding: 2%;
         color: white;
@@ -199,11 +199,11 @@ main{
         }
             .resicon {
                 padding: 2%;
-                width: 15%; /* Ajustez la taille selon vos besoins */
-                vertical-align: middle; /* Aligne verticalement les icônes avec le texte */
-                transition: filter 0.3s ease; /* Transition pour l'effet au survol */
+                width: 15%;
+                vertical-align: middle;
+                transition: filter 0.3s ease;
             }
 
             .resicon:hover {
-                filter: brightness(1.5); /* Éclaircit l'icône au survol */
+                filter: brightness(1.5);
             }
