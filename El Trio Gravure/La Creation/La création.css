@@ -70,9 +70,6 @@ body {
             text-align: center;
         }
 
-            .space1{
-                height: 3%
-            }
 
             .crea0{
                 color: white;
@@ -84,6 +81,7 @@ body {
             }
 
             .step{
+                margin-top: 2%;
                 display: flex;
                 justify-content: center;
                 width: 100%;

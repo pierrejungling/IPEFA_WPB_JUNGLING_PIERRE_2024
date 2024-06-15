@@ -78,13 +78,11 @@ body {
             color: white;
             text-align: center;
         }
-            .space1{
-                height: 7%;
-                width: 100%;
-            }
 
             .formu {
                 padding: 2%;
+                margin-top: 2%;
+                margin-bottom: 2%;
             }
 
             .formu form {
@@ -164,11 +162,6 @@ body {
                     width: 50%
                 }
 
-
-.space2{
-    width: 100%;
-    height: 50px;
-}
 
     footer{
         display:flex;
