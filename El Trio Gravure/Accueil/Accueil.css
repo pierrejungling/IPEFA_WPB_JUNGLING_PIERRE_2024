@@ -48,16 +48,16 @@ body {
                     display: block;
                     padding: 10px 20px;
                     margin: 5px 0;
-                    background-color: #555; /* Couleur de fond du bouton */
-                    color: white; /* Couleur du texte */
+                    background-color: #555;
+                    color: white;
                     text-align: center;
-                    text-decoration: none; /* Supprime la décoration de texte par défaut (soulignement) */
-                    border-radius: 5px; /* Bords arrondis */
-                    transition: background-color 0.3s ease; /* Transition pour l'effet au survol */
+                    text-decoration: none;
+                    border-radius: 5px;
+                    transition: background-color 0.3s ease;
                 }
 
                 nav a:hover {
-                    background-color: #777; /* Couleur de fond au survol */
+                    background-color: #777;
                 }
 
 
@@ -114,6 +114,8 @@ main{
                     background: #1f1f1f;
                     padding: 2%;
                     text-align: justify;
+                    display: flex;
+                    align-items: center;
                 }
 
             .about2{
@@ -141,6 +143,8 @@ main{
                 background: #1f1f1f;
                 padding: 2%;
                 text-align: justify;
+                display: flex;
+                align-items: center;
             }
 
             .about3{
@@ -168,6 +172,8 @@ main{
                 background: #1f1f1f;
                 padding: 2%;
                 text-align: justify;
+                display: flex;
+                align-items: center;
             }
 
     footer{
