@@ -3,20 +3,21 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    line-height: 1.3;
 }
 
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: black;
+    background: #0e0e0e;
 }
 
     header{
-        border: 1px solid red;
+        border:1px solid rgba(255, 255, 255, 0.25);
 
         width: 100%;
-        background-color: rgba(255, 255, 255, 0.03);
+        background-color: #1a1a1a;
         color: white;
         text-align: center;
         padding: 1em 0;
@@ -30,25 +31,37 @@ body {
         nav{
             padding: 2%;
             width: 20%;
-            background-color: rgba(255, 255, 255, 0.03);
+            background-color: #1a1a1a;
             color: white;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
-
+            nav h3{
+                font-size: 2em;
+            }
             nav ul{
                 list-style-type: none;
                 text-align: center;
             }
-            nav a{
-                text-decoration: none;
-            }
-            nav a:hover {
-                text-decoration: underline;
-            }
+                nav a {
+                    display: block;
+                    padding: 10px 20px;
+                    margin: 5px 0;
+                    background-color: #555;
+                    color: white;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    transition: background-color 0.3s ease;
+                }
 
-        main{
+                nav a:hover {
+                    background-color: #777;
+                }
+
+
+main{
             display: flex;
             flex-direction: column;
             padding: 2%;
@@ -73,6 +86,7 @@ body {
                 }
 
                 .logoimg{
+                    padding: 2%;
                     width: 25%;
                 }
            .about1{
@@ -80,11 +94,9 @@ body {
                flex-direction: row;
                padding: 2%;
                width: 100%;
-               border:  1px solid red;
            }
                 .imgabout1{
                     width: 50%;
-                    border:  1px solid red;
                     padding: 2%;
 
 
@@ -97,9 +109,13 @@ body {
                 .txtabout1{
                     color: white;
                     width: 50%;
-                    border:  1px solid red;
+                    border:  1px solid rgba(255, 255, 255, 0.3);
+                    border-radius: 10px;
+                    background: #1f1f1f;
                     padding: 2%;
                     text-align: justify;
+                    display: flex;
+                    align-items: center;
                 }
 
             .about2{
@@ -107,11 +123,9 @@ body {
                 flex-direction: row-reverse;
                 padding: 2%;
                 width: 100%;
-                border:  1px solid green;
             }
             .imgabout2{
                 width: 50%;
-                border:  1px solid green;
                 padding: 2%;
 
 
@@ -124,9 +138,13 @@ body {
             .txtabout2{
                 color: white;
                 width: 50%;
-                border:  1px solid green;
+                border:  1px solid rgba(255, 255, 255, 0.3);
+                border-radius: 10px;
+                background: #1f1f1f;
                 padding: 2%;
                 text-align: justify;
+                display: flex;
+                align-items: center;
             }
 
             .about3{
@@ -134,11 +152,9 @@ body {
                 flex-direction: row;
                 padding: 2%;
                 width: 100%;
-                border:  1px solid blue;
             }
             .imgabout3{
                 width: 50%;
-                border:  1px solid blue;
                 padding: 2%;
 
 
@@ -151,17 +167,21 @@ body {
             .txtabout3{
                 color: white;
                 width: 50%;
-                border:  1px solid blue;
+                border:  1px solid rgba(255, 255, 255, 0.3);
+                border-radius: 10px;
+                background: #1f1f1f;
                 padding: 2%;
                 text-align: justify;
+                display: flex;
+                align-items: center;
             }
 
     footer{
         display:flex;
         width: 100%;
         justify-content: center;
-        border:1px solid brown;
-        background: rgba(245, 245, 245, 0.03);
+        border:1px solid rgba(255, 255, 255, 0.25);
+        background: #1a1a1a;
         padding: 2%;
         color: white;
     }
@@ -176,8 +196,21 @@ body {
             text-align: center;
             color: white;
         }
+            .telmail p{
+                text-decoration: ;
+            }
         .reseaux {
             width: 30%;
             text-align: center;
             color:white ;
         }
+            .resicon {
+                padding: 2%;
+                width: 15%;
+                vertical-align: middle;
+                transition: filter 0.3s ease;
+            }
+
+            .resicon:hover {
+                filter: brightness(1.5);
+            }

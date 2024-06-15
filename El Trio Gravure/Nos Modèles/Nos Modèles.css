@@ -9,14 +9,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: black;
+    background: #0e0e0e;
 }
 
     header{
-        border: 1px solid red;
+        border: 1px solid rgba(255, 255, 255, 0.23);
 
         width: 100%;
-        background-color: rgba(255, 255, 255, 0.03);
+        background-color: #1a1a1a;
         color: white;
         text-align: center;
         padding: 1em 0;
@@ -30,23 +30,36 @@ body {
         nav{
             padding: 2%;
             width: 20%;
-            background-color: rgba(255, 255, 255, 0.03);
+            background-color: #1a1a1a;
             color: white;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
 
+            nav h3{
+                font-size: 2em;
+            }
+
             nav ul{
                 list-style-type: none;
                 text-align: center;
             }
-            nav a{
-                text-decoration: none;
-            }
-            nav a:hover {
-                text-decoration: underline;
-            }
+                nav a {
+                    display: block;
+                    padding: 10px 20px;
+                    margin: 5px 0;
+                    background-color: #555;
+                    color: white;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    transition: background-color 0.3s ease;
+                }
+
+                nav a:hover {
+                    background-color: #777;
+                }
 
         main{
             display: flex;
@@ -54,6 +67,7 @@ body {
             padding: 2%;
             width: 80%;
             text-align: center;
+            border-radius: 5px;
         }
 
             .ETG{
@@ -65,6 +79,7 @@ body {
                 text-align: justify;
                 color: white;
                 padding: 2%;
+                line-height: 1.3;
             }
                 .mod0 h2{
                     text-align: center;
@@ -88,25 +103,31 @@ body {
                        flex-direction: row;
                        padding: 2%;
                        width: 50%;
-                       border:  1px solid red;
+                       border:  2px solid rgba(255, 255, 255, 0.4);
+                       border-radius: 5px;
                    }
                         .imgmod1{
                             display: flex;
                             align-self: center;
                             justify-content: center;
                             width: 50%;
-                            border:  1px solid red;
-                            padding: 2%;
                         }
                             .pic1{
                                 width: 80%;
                                 border-radius: 5%;
+                                cursor: pointer;
+                            }
+
+                            .pic :hover{
+
                             }
 
                         .txtmod1{
                             color: white;
                             width: 50%;
-                            border:  1px solid red;
+                            border:  1px solid rgba(255, 255, 255, 0.3);
+                            border-radius: 10px;
+                            background: #1f1f1f;
                             padding: 2%;
                             text-align: justify;
                         }
@@ -115,15 +136,14 @@ body {
                         flex-direction: row;
                         padding: 2%;
                         width: 50%;
-                        border:  1px solid red;
+                        border:  2px solid rgba(255, 255, 255, 0.4);
+                        border-radius: 5px;
                     }
                         .imgmod2{
                             display: flex;
                             align-self: center;
                             justify-content: center;
                             width: 50%;
-                            border:  1px solid red;
-                            padding: 2%;
                         }
 
                         .pic2{
@@ -134,7 +154,9 @@ body {
                         .txtmod2{
                             color: white;
                             width: 50%;
-                            border:  1px solid red;
+                            border:  1px solid rgba(255, 255, 255, 0.3);
+                            border-radius: 10px;
+                            background: #1f1f1f;
                             padding: 2%;
                             text-align: justify;
                         }
@@ -147,15 +169,14 @@ body {
                     flex-direction: row;
                     padding: 2%;
                     width: 50%;
-                    border:  1px solid red;
+                    border:  2px solid rgba(255, 255, 255, 0.4);
+                    border-radius: 5px;
                 }
                 .imgmod3{
                     display: flex;
                     align-self: center;
                     justify-content: center;
                     width: 50%;
-                    border:  1px solid red;
-                    padding: 2%;
                 }
                 .pic3{
                     width: 80%;
@@ -165,7 +186,9 @@ body {
                 .txtmod3{
                     color: white;
                     width: 50%;
-                    border:  1px solid red;
+                    border:  1px solid rgba(255, 255, 255, 0.3);
+                    border-radius: 10px;
+                    background: #1f1f1f;
                     padding: 2%;
                     text-align: justify;
                 }
@@ -174,15 +197,14 @@ body {
                     flex-direction: row;
                     padding: 2%;
                     width: 50%;
-                    border:  1px solid red;
+                    border:  2px solid rgba(255, 255, 255, 0.4);
+                    border-radius: 5px;
                 }
                 .imgmod4{
                     display: flex;
                     align-self: center;
                     justify-content: center;
                     width: 50%;
-                    border:  1px solid red;
-                    padding: 2%;
                 }
 
                 .pic4{
@@ -193,7 +215,9 @@ body {
                 .txtmod4{
                     color: white;
                     width: 50%;
-                    border:  1px solid red;
+                    border:  1px solid rgba(255, 255, 255, 0.3);
+                    border-radius: 10px;
+                    background: #1f1f1f;
                     padding: 2%;
                     text-align: justify;
                 }
@@ -206,15 +230,14 @@ body {
                        flex-direction: row;
                        padding: 2%;
                        width: 50%;
-                       border:  1px solid red;
+                       border:  2px solid rgba(255, 255, 255, 0.4);
+                       border-radius: 5px;
                    }
                         .imgmod5{
                             display: flex;
                             align-self: center;
                             justify-content: center;
                             width: 50%;
-                            border:  1px solid red;
-                            padding: 2%;
                         }
                             .pic5{
                                 width: 80%;
@@ -224,7 +247,9 @@ body {
                         .txtmod5{
                             color: white;
                             width: 50%;
-                            border:  1px solid red;
+                            border:  1px solid rgba(255, 255, 255, 0.3);
+                            border-radius: 10px;
+                            background: #1f1f1f;
                             padding: 2%;
                             text-align: justify;
                         }
@@ -233,15 +258,14 @@ body {
                         flex-direction: row;
                         padding: 2%;
                         width: 50%;
-                        border:  1px solid red;
+                        border:  2px solid rgba(255, 255, 255, 0.4);
+                        border-radius: 5px;
                     }
                         .imgmod6{
                             display: flex;
                             align-self: center;
                             justify-content: center;
                             width: 50%;
-                            border:  1px solid red;
-                            padding: 2%;
                         }
 
                         .pic6{
@@ -252,7 +276,9 @@ body {
                         .txtmod6{
                             color: white;
                             width: 50%;
-                            border:  1px solid red;
+                            border:  1px solid rgba(255, 255, 255, 0.3);
+                            border-radius: 10px;
+                            background: #1f1f1f;
                             padding: 2%;
                             text-align: justify;
                         }
@@ -261,8 +287,8 @@ body {
         display:flex;
         width: 100%;
         justify-content: center;
-        border:1px solid brown;
-        background: rgba(245, 245, 245, 0.03);
+        border:1px solid rgba(255, 255, 255, 0.25);
+        background: #1a1a1a;
         padding: 2%;
         color: white;
     }
@@ -283,3 +309,13 @@ body {
             text-align: center;
             color:white ;
         }
+            .resicon {
+                padding: 2%;
+                width: 15%;
+                vertical-align: middle;
+                transition: filter 0.3s ease;
+            }
+
+            .resicon:hover {
+                filter: brightness(1.5);
+            }

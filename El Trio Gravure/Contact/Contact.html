@@ -15,7 +15,7 @@
            </header>
             <div class="inter">
                 <nav>
-                    <p><h3>Menu : </h3><br><br></p>
+                    <p><h3>Menu</h3><br><br></p>
                     <ul>
                         <li> <a href="../Accueil/Accueil.html">Accueil</a></li>
                         <br>
@@ -41,37 +41,62 @@
                        </p>
                    </div>
 
-                   <div class="space1">
+                   <div class="formu">
+                       <form action="" method="post" >
+                           <div class="prenom-nom">
+                               <div class="prenom">
+
+                                   <label for="prenom">Prénom :</label>
+                                   <input type="text" id="prenom" name="surname" placeholder="Entrez votre prénom" required>
+                               </div>
+
+                               <div class="nom">
+                                   <label for="nom">Nom :</label>
+                                   <input type="text" id="nom" name="name" placeholder="Entrez votre nom" required>
+                               </div>
+                           </div>
+                           <div class="mail-sujet">
+                               <div class="mail">
+                                    <label for="email">Email : </label>
+                                    <input type="email" id="email" name="email" placeholder="Entrez votre Email" required>
+                               </div>
+
+                               <div class="sujet">
+                                    <label for="sujet">Sujet : </label>
+                                    <input type="text" id="sujet" name="subject" placeholder="Entrez votre sujet" required>
+                               </div>
+                           </div>
+
+                           <div class="message">
+                                <label for="texte">Message : </label>
+                                <textarea id="texte" name="message" rows="4" required></textarea>
+                           </div>
+
+                           <div class="envoyer">
+                               <button type="submit">Envoyer</button>
+                           </div>
+
+                       </form>
 
                    </div>
-
-                   <div class="con2">
-                       <div class="mail">
-                           <h3>Par mail : <a href="mailto:gravure@eltriofactory.com">gravure@eltriofactory.com</a> </h3>
-                           <p>
-                               <br>N'hésitez pas à nous envoyer des visuels de vos idées en pièce jointes !
-                           </p>
-                       </div>
-                       <div class="tel">
-                           <h3>Par téléphone : <a href="tel:+32472096563"> +32 472 09 65 63</a> </h3>
-                           <p>
-                               <br> Pour nous expliquer de vive voix votre projet !
-
-                           </p>
-                       </div>
-                   </div>
-
                </main>
             </div>
 
 
-            <footer>
-                <div class="reseaux">
-                    <p><h3>Nos Réseaux: </h3><br><br></p>
-                    <p>
-                        Facebook : <a href="https://www.facebook.com/el.trio.gravure" target="_blank" >ici</a> <br>
-                        Instagram : <a href="https://www.instagram.com/el_trio_gravure/" target="_blank" >ici</a>
-                    </p>
+        <footer>
+            <div class="telmail">
+                <p> <h3>Contactez-Nous: </h3><br><br></p>
+                <p>
+                    Mail : <a href="mailto:gravure@eltriofatory.com">gravure@eltriofatory.com</a> <br><br>
+                    Téléphone : <a href="tel:+32472096563">+32 472 09 65 63</a>
+                </p>
+            </div>
+            <div class="reseaux">
+                <h3>Nos Réseaux :<br><br></h3>
+                <p>
+                    <a href="https://www.facebook.com/el.trio.gravure" target="_blank"><img src="../Ressources/FB2.png" alt="Facebook" class="resicon"></a>
+                    <a href="https://www.instagram.com/el_trio_gravure/" target="_blank"><img src="../Ressources/IN2.png" alt="Instagram" class="resicon"></a>
+                </p>
             </div>
         </footer>
         </div>
