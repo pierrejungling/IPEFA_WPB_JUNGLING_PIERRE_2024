@@ -13,7 +13,7 @@ body {
 }
 
     header{
-        border: 1px solid red;
+        border: 1px solid rgba(255, 255, 255, 0.23);
 
         width: 100%;
         background-color: #1a1a1a;
@@ -67,6 +67,7 @@ body {
             padding: 2%;
             width: 80%;
             text-align: center;
+            border-radius: 5px;
         }
 
             .ETG{
@@ -101,14 +102,14 @@ body {
                        flex-direction: row;
                        padding: 2%;
                        width: 50%;
-                       border:  1px solid red;
+                       border:  2px solid rgba(255, 255, 255, 0.4);
+                       border-radius: 5px;
                    }
                         .imgmod1{
                             display: flex;
                             align-self: center;
                             justify-content: center;
                             width: 50%;
-                            border:  1px solid red;
                             padding: 2%;
                         }
                             .pic1{
@@ -124,7 +125,9 @@ body {
                         .txtmod1{
                             color: white;
                             width: 50%;
-                            border:  1px solid red;
+                            border:  1px solid rgba(255, 255, 255, 0.3);
+                            border-radius: 10px;
+                            background: #1f1f1f;
                             padding: 2%;
                             text-align: justify;
                         }
@@ -133,14 +136,14 @@ body {
                         flex-direction: row;
                         padding: 2%;
                         width: 50%;
-                        border:  1px solid red;
+                        border:  2px solid rgba(255, 255, 255, 0.4);
+                        border-radius: 5px;
                     }
                         .imgmod2{
                             display: flex;
                             align-self: center;
                             justify-content: center;
                             width: 50%;
-                            border:  1px solid red;
                             padding: 2%;
                         }
 
@@ -152,7 +155,9 @@ body {
                         .txtmod2{
                             color: white;
                             width: 50%;
-                            border:  1px solid red;
+                            border:  1px solid rgba(255, 255, 255, 0.3);
+                            border-radius: 10px;
+                            background: #1f1f1f;
                             padding: 2%;
                             text-align: justify;
                         }
@@ -165,14 +170,14 @@ body {
                     flex-direction: row;
                     padding: 2%;
                     width: 50%;
-                    border:  1px solid red;
+                    border:  2px solid rgba(255, 255, 255, 0.4);
+                    border-radius: 5px;
                 }
                 .imgmod3{
                     display: flex;
                     align-self: center;
                     justify-content: center;
                     width: 50%;
-                    border:  1px solid red;
                     padding: 2%;
                 }
                 .pic3{
@@ -183,7 +188,9 @@ body {
                 .txtmod3{
                     color: white;
                     width: 50%;
-                    border:  1px solid red;
+                    border:  1px solid rgba(255, 255, 255, 0.3);
+                    border-radius: 10px;
+                    background: #1f1f1f;
                     padding: 2%;
                     text-align: justify;
                 }
@@ -192,14 +199,14 @@ body {
                     flex-direction: row;
                     padding: 2%;
                     width: 50%;
-                    border:  1px solid red;
+                    border:  2px solid rgba(255, 255, 255, 0.4);
+                    border-radius: 5px;
                 }
                 .imgmod4{
                     display: flex;
                     align-self: center;
                     justify-content: center;
                     width: 50%;
-                    border:  1px solid red;
                     padding: 2%;
                 }
 
@@ -211,7 +218,9 @@ body {
                 .txtmod4{
                     color: white;
                     width: 50%;
-                    border:  1px solid red;
+                    border:  1px solid rgba(255, 255, 255, 0.3);
+                    border-radius: 10px;
+                    background: #1f1f1f;
                     padding: 2%;
                     text-align: justify;
                 }
@@ -224,14 +233,14 @@ body {
                        flex-direction: row;
                        padding: 2%;
                        width: 50%;
-                       border:  1px solid red;
+                       border:  2px solid rgba(255, 255, 255, 0.4);
+                       border-radius: 5px;
                    }
                         .imgmod5{
                             display: flex;
                             align-self: center;
                             justify-content: center;
                             width: 50%;
-                            border:  1px solid red;
                             padding: 2%;
                         }
                             .pic5{
@@ -242,7 +251,9 @@ body {
                         .txtmod5{
                             color: white;
                             width: 50%;
-                            border:  1px solid red;
+                            border:  1px solid rgba(255, 255, 255, 0.3);
+                            border-radius: 10px;
+                            background: #1f1f1f;
                             padding: 2%;
                             text-align: justify;
                         }
@@ -251,14 +262,14 @@ body {
                         flex-direction: row;
                         padding: 2%;
                         width: 50%;
-                        border:  1px solid red;
+                        border:  2px solid rgba(255, 255, 255, 0.4);
+                        border-radius: 5px;
                     }
                         .imgmod6{
                             display: flex;
                             align-self: center;
                             justify-content: center;
                             width: 50%;
-                            border:  1px solid red;
                             padding: 2%;
                         }
 
@@ -270,7 +281,9 @@ body {
                         .txtmod6{
                             color: white;
                             width: 50%;
-                            border:  1px solid red;
+                            border:  1px solid rgba(255, 255, 255, 0.3);
+                            border-radius: 10px;
+                            background: #1f1f1f;
                             padding: 2%;
                             text-align: justify;
                         }
@@ -279,7 +292,7 @@ body {
         display:flex;
         width: 100%;
         justify-content: center;
-        border:1px solid brown;
+        border:1px solid rgba(255, 255, 255, 0.25);
         background: #1a1a1a;
         padding: 2%;
         color: white;
