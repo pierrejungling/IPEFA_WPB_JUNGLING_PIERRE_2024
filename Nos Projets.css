@@ -88,6 +88,9 @@ body {
                 .imgpr1{
                     width: 50%;
                     padding: 2%;
+                    display: flex;
+                    align-self: center;
+                    justify-content: center;
 
 
                 }
@@ -116,8 +119,9 @@ body {
                 .imgpr2{
                     width: 50%;
                     padding: 2%;
-
-
+                    display: flex;
+                    align-self: center;
+                    justify-content: center;
                 }
                     .pic2{
                         width: 80%;
@@ -143,8 +147,9 @@ body {
                 .imgpr3{
                     width: 50%;
                     padding: 2%;
-
-
+                    display: flex;
+                    align-self: center;
+                    justify-content: center;
                 }
                     .pic3{
                         width: 80%;
