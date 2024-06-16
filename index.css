@@ -2,23 +2,23 @@
 
 @media all and (orientation: portrait) {
     body {
-        font-size: 18px; /* Augmenter la taille de la police pour le corps */
+        font-size: 40px; /* Augmenter la taille de la police pour le corps */
     }
 
     h1 {
-        font-size: 2.2em; /* Ajuster la taille des titres */
+        font-size: 5em; /* Ajuster la taille des titres */
     }
 
     h2 {
-        font-size: 1.7em; /* Ajuster la taille des titres */
+        font-size:4em; /* Ajuster la taille des titres */
     }
 
     h3 {
-        font-size: 1.37em; /* Ajuster la taille des titres */
+        font-size: 3em; /* Ajuster la taille des titres */
     }
 
     h4 {
-        font-size: 1.2em; /* Ajuster la taille des titres */
+        font-size: 2em; /* Ajuster la taille des titres */
     }
 
     h5 {
@@ -30,7 +30,7 @@
     }
 
     p {
-        font-size: 1.2em; /* Ajuster la taille des paragraphes */
+        font-size: 1.5em; /* Ajuster la taille des paragraphes */
     }
 }
 }
