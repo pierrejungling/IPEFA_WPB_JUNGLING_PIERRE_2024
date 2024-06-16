@@ -1,6 +1,14 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    line-height: 1.3;
+}
 @media all and (orientation: portrait) {
+
+    *{border: 1px solid red}
     body {
         font-size: 40px; /* Augmenter la taille de la police pour le corps */
     }
@@ -31,83 +39,6 @@
 
     p {
         font-size: 1.5em; /* Ajuster la taille des paragraphes */
-    }
-}
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    line-height: 1.3;
-}
-
-/* Taille de police par défaut */
-body {
-    font-size: 16px;
-}
-
-h1 {
-    font-size: 2em; /* 32 pixels */
-}
-
-h2 {
-    font-size: 1.5em; /* 24 pixels */
-}
-
-h3 {
-    font-size: 1.17em; /* 18.72 pixels */
-}
-
-h4 {
-    font-size: 1em; /* 16 pixels */
-}
-
-h5 {
-    font-size: 0.83em; /* 13.28 pixels */
-}
-
-h6 {
-    font-size: 0.67em; /* 10.72 pixels */
-}
-
-p {
-    font-size: 1em; /* 16 pixels */
-}
-
-/* Media query pour les écrans plus petits (par exemple, mobile) */
-@media all and (max-width: 767px) {
-    body {
-        font-size: 18px; /* Augmenter la taille de la police pour le corps */
-    }
-
-    h1 {
-        font-size: 2.2em; /* Ajuster la taille des titres */
-    }
-
-    h2 {
-        font-size: 1.7em; /* Ajuster la taille des titres */
-    }
-
-    h3 {
-        font-size: 1.37em; /* Ajuster la taille des titres */
-    }
-
-    h4 {
-        font-size: 1.2em; /* Ajuster la taille des titres */
-    }
-
-    h5 {
-        font-size: 1em; /* Ajuster la taille des titres */
-    }
-
-    h6 {
-        font-size: 0.83em; /* Ajuster la taille des titres */
-    }
-
-    p {
-        font-size: 1.2em; /* Ajuster la taille des paragraphes */
     }
 }
 
