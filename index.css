@@ -13,31 +13,15 @@ body {
     background: #0e0e0e;
 }
 
-    header {
-        border: 1px solid rgba(255, 255, 255, 0.25);
+    header{
+        border:1px solid rgba(255, 255, 255, 0.25);
+
         width: 100%;
         background-color: #1a1a1a;
         color: white;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 2%;
+        text-align: center;
+        padding: 1em 0;
     }
-
-        header h1 {
-            margin: 0;
-            flex-grow: 1;
-            text-align: center;
-        }
-
-        .logoheader {
-            width: auto;
-            margin-left: auto;
-        }
-
-        .logoheader img {
-            width: 100px;
-        }
 
     .inter{
         display: flex;
@@ -77,120 +61,113 @@ body {
                 }
 
 
-main{
-            display: flex;
-            flex-direction: column;
-            padding: 2%;
-            width: 80%;
-            text-align: center;
-        }
-
-            .ETG{
-                padding: 1%;
-                color: palegoldenrod;
-            }
-
-            .about0{
-                text-align: justify;
-                color: white;
-                padding: 2%;
-            }
-
-                .logo{
+        main{
                     display: flex;
-                    justify-content: center;
-                }
-
-                .logoimg{
+                    flex-direction: column;
                     padding: 2%;
-                    width: 25%;
+                    width: 80%;
+                    text-align: center;
                 }
-           .about1{
-               display: flex;
-               flex-direction: row;
-               padding: 2%;
-               width: 100%;
-           }
-                .imgabout1{
-                    width: 50%;
-                    padding: 2%;
 
-
-                }
-                    .pic1{
-                        width: 80%;
-                        border-radius: 5%;
+                    .ETG{
+                        padding: 1%;
                     }
 
-                .txtabout1{
-                    color: white;
-                    width: 50%;
-                    border:  1px solid rgba(255, 255, 255, 0.3);
-                    border-radius: 10px;
-                    background: #1f1f1f;
-                    padding: 2%;
-                    text-align: justify;
-                    display: flex;
-                    align-items: center;
-                }
+                    .about0{
+                        text-align: justify;
+                        color: white;
+                        padding: 2%;
+                    }
 
-            .about2{
-                display: flex;
-                flex-direction: row-reverse;
-                padding: 2%;
-                width: 100%;
-            }
-            .imgabout2{
-                width: 50%;
-                padding: 2%;
+                        .logo{
+                            display: flex;
+                            justify-content: center;
+                        }
 
+                        .logoimg{
+                            padding: 2%;
+                            width: 25%;
+                        }
+                   .about1{
+                       display: flex;
+                       flex-direction: row;
+                       padding: 2%;
+                       width: 100%;
+                   }
+                        .imgabout1{
+                            width: 50%;
+                            padding: 2%;
+                        }
+                            .pic1{
+                                width: 80%;
+                                border-radius: 5%;
+                            }
 
-            }
-            .pic2{
-                width: 80%;
-                border-radius: 5%;
-            }
+                        .txtabout1{
+                            color: white;
+                            width: 50%;
+                            border:  1px solid rgba(255, 255, 255, 0.3);
+                            border-radius: 10px;
+                            background: #1f1f1f;
+                            padding: 2%;
+                            text-align: justify;
+                            display: flex;
+                            align-items: center;
+                        }
 
-            .txtabout2{
-                color: white;
-                width: 50%;
-                border:  1px solid rgba(255, 255, 255, 0.3);
-                border-radius: 10px;
-                background: #1f1f1f;
-                padding: 2%;
-                text-align: justify;
-                display: flex;
-                align-items: center;
-            }
+                    .about2{
+                        display: flex;
+                        flex-direction: row-reverse;
+                        padding: 2%;
+                        width: 100%;
+                    }
+                        .imgabout2{
+                            width: 50%;
+                            padding: 2%;
+                        }
+                            .pic2{
+                                width: 80%;
+                                border-radius: 5%;
+                            }
 
-            .about3{
-                display: flex;
-                flex-direction: row;
-                padding: 2%;
-                width: 100%;
-            }
-            .imgabout3{
-                width: 50%;
-                padding: 2%;
+                        .txtabout2{
+                            color: white;
+                            width: 50%;
+                            border:  1px solid rgba(255, 255, 255, 0.3);
+                            border-radius: 10px;
+                            background: #1f1f1f;
+                            padding: 2%;
+                            text-align: justify;
+                            display: flex;
+                            align-items: center;
+                        }
 
+                    .about3{
+                        display: flex;
+                        flex-direction: row;
+                        padding: 2%;
+                        width: 100%;
+                    }
+                        .imgabout3{
+                            width: 50%;
+                            padding: 2%;
+                        }
+                            .pic3{
+                                width: 80%;
+                                border-radius: 5%;
+                            }
 
-            }
-            .pic3{
-                width: 80%;
-                border-radius: 5%;
-            }
-
-            .txtabout3{
-                color: white;
-                width: 50%;
-                border:  1px solid rgba(255, 255, 255, 0.3);
-                border-radius: 10px;
-                background: #1f1f1f;
-                padding: 2%;
-                text-align: justify;
-                display: flex;
-                align-items: center;
-            }
+                        .txtabout3{
+                            color: white;
+                            width: 50%;
+                            border:  1px solid rgba(255, 255, 255, 0.3);
+                            border-radius: 10px;
+                            background: #1f1f1f;
+                            padding: 2%;
+                            text-align: justify;
+                            display: flex;
+                            align-items: center;
+                        }
 
     footer{
         display:flex;
