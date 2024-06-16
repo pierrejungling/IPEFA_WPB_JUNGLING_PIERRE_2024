@@ -6,6 +6,7 @@
     line-height: 1.3;
 }
 
+
 body {
     display: flex;
     flex-direction: column;
@@ -202,3 +203,176 @@ body {
             .resicon:hover {
                 filter: brightness(1.5);
             }
+
+
+
+@media all and (orientation: portrait) {
+
+    body {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    h3 {
+        font-size: 1.37em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    h5 {
+        font-size: 1em;
+    }
+
+    h6 {
+        font-size: 0.83em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    .pr1{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        width: 100%;
+    }
+        .imgpr1{
+            width:100%;
+            padding: 2%;
+            display: flex;
+            align-self: center;
+            justify-content: center;
+
+
+        }
+            .pic1{
+                width: 80%;
+                border-radius: 5%;
+            }
+
+        .txtpr1{
+            margin-top: 5%;
+            color: white;
+            width: 100%;
+            border:  1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            background: #1f1f1f;
+            padding: 2%;
+            text-align: justify;
+
+        }
+
+    .pr2{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        width: 100%;
+    }
+        .imgpr2{
+            width: 100%;
+            padding: 2%;
+            display: flex;
+            align-self: center;
+            justify-content: center;
+        }
+            .pic2{
+                width: 80%;
+                border-radius: 5%;
+            }
+
+        .txtpr2{
+            margin-top: 5%;
+            color: white;
+            width: 100%;
+            border:  1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            background: #1f1f1f;
+            padding: 2%;
+            text-align: justify;
+        }
+
+    .pr3{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        width: 100%;
+    }
+        .imgpr3{
+            width: 100%;
+            padding: 2%;
+            display: flex;
+            align-self: center;
+            justify-content: center;
+        }
+            .pic3{
+                width: 80%;
+                border-radius: 5%;
+            }
+
+        .txtpr3{
+            margin-top: 5%;
+            color: white;
+            width: 100%;
+            border:  1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            background: #1f1f1f;
+            padding: 2%;
+            text-align: justify;
+        }
+
+    footer{
+        display:flex;
+        width: 100%;
+        justify-content: space-evenly;
+        border:1px solid rgba(255, 255, 255, 0.25);
+        background: #1a1a1a;
+        padding: 2%;
+        color: white;
+    }
+
+        footer a{
+            text-decoration: none;
+        }
+        footer a:hover{
+            text-decoration: underline;
+        }
+            .telmail{
+                width: 45%;
+                text-align: center;
+                color: white;
+            }
+            .reseaux {
+                width: 45%;
+                text-align: center;
+                color:white ;
+            }
+
+                .reseaux p{
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+                    .resicon {
+                        padding: 2%;
+                        width: 100%;
+                        vertical-align: middle;
+                        transition: filter 0.3s ease;
+                    }
+
+                    .resicon:hover {
+                        filter: brightness(1.5);
+                    }
+
+}
