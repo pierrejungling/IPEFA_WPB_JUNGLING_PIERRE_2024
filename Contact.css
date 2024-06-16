@@ -85,83 +85,59 @@ body {
                 margin-bottom: 2%;
             }
 
-            .formu form {
-                display: flex;
-                flex-direction: column;
-            }
-
-            .formu .prenom-nom {
-                display: flex;
-                justify-content: space-between;
-            }
-
-            .formu .prenom-nom > div {
-                flex: 1;
-                margin-right: 2%;
-            }
-
-            .formu .mail-sujet {
-                display: flex;
-                justify-content: space-between;
-            }
-
-            .formu .mail-sujet > div {
-                flex: 1;
-                margin-right: 2%;
-            }
-
-            .formu label {
-                font-weight: bold;
-            }
-
-            .formu input[type="text"],
-            .formu input[type="email"],
-            .formu textarea {
-                padding: 2%;
-                margin-bottom: 2%;
-                border: 1px solid #555555;
-                border-radius: 5px;
-                font-size: 16px;
-                width: 100%;
-                box-sizing: border-box;
-            }
-
-            .formu button[type="submit"] {
-                padding: 1% 1.5%;
-                border: none;
-                border-radius: 5px;
-                background-color: #555555;
-                color: white;
-                font-size: 16px;
-                cursor: pointer;
-                transition: background-color 0.3s ease;
-            }
-
-            .formu button[type="submit"]:hover {
-                background-color: #777777;
-            }
-
-
-.con2{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-            }
-
-                .con2 a{
-                    text-decoration: none;
-                }
-                .con2 a:hover{
-                    text-decoration: underline;
-                }
-                .mail{
-                    width: 50%;
+                .formu form {
+                    display: flex;
+                    flex-direction: column;
                 }
 
-                .tel{
-                    width: 50%
+                    .formu .prenom-nom {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                        .formu .prenom-nom > div {
+                            flex: 1;
+                            margin-right: 2%;
+                        }
+
+                    .formu .mail-sujet {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                        .formu .mail-sujet > div {
+                            flex: 1;
+                            margin-right: 2%;
+                        }
+
+                    .formu label {
+                        font-weight: bold;
+                    }
+
+                .formu input[type="text"],
+                .formu input[type="email"],
+                .formu textarea {
+                    padding: 2%;
+                    margin-bottom: 2%;
+                    border: 1px solid #555555;
+                    border-radius: 5px;
+                    width: 100%;
+                    box-sizing: border-box;
                 }
 
+                .formu button[type="submit"] {
+                    padding: 1% 1.5%;
+                    border: none;
+                    border-radius: 5px;
+                    background-color: #555555;
+                    color: white;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                }
+
+                .formu button[type="submit"]:hover {
+                    background-color: #777777;
+                }
 
     footer{
         display:flex;
