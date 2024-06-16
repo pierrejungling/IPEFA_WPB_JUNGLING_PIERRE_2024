@@ -75,10 +75,10 @@ body {
                 color: white;
                 padding: 2%;
             }
-            .crea0 h2{
-                text-align: center;
-                padding: 2%;
-            }
+                .crea0 h2{
+                    text-align: center;
+                    padding: 2%;
+                }
 
             .step{
                 margin-top: 2%;
@@ -99,32 +99,32 @@ body {
                         text-align: justify;
                     }
 
-                    .toggle-checkbox{
-                        display: none;
-                    }
-                    .toggle-title {
-                        margin-top: 20px;
-                        margin-bottom: 10px;
-                        display: block;
-                    }
-                    .toggle-title:hover{
-                        text-decoration: underline;
-                        cursor: pointer;
-                    }
+                        .toggle-checkbox{
+                            display: none;
+                        }
+                            .toggle-title {
+                                margin-top: 20px;
+                                margin-bottom: 10px;
+                                display: block;
+                            }
+                            .toggle-title:hover{
+                                text-decoration: underline;
+                                cursor: pointer;
+                            }
 
-                    .toggle-content {
-                        display: none;
-                        border:  1px solid rgba(255, 255, 255, 0.3);
-                        border-radius: 10px;
-                        background: #1f1f1f;
-                        padding: 2%;
-                    }
-                    .toggle-checkbox:checked + .toggle-title {
-                        text-decoration: underline;
-                    }
-                    .toggle-checkbox:checked + .toggle-title + .toggle-content {
-                        display: block;
-                    }
+                            .toggle-content {
+                                display: none;
+                                border:  1px solid rgba(255, 255, 255, 0.3);
+                                border-radius: 10px;
+                                background: #1f1f1f;
+                                padding: 2%;
+                            }
+                        .toggle-checkbox:checked + .toggle-title {
+                            text-decoration: underline;
+                        }
+                        .toggle-checkbox:checked + .toggle-title + .toggle-content {
+                            display: block;
+                        }
 
 
            
